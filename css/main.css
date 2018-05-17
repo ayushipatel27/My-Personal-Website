@@ -301,6 +301,7 @@ img::-moz-selection {
 
 @media (max-width: 550px) {
   .skills {
+    font-size: 12px;
     background-size: 100% 100%;
   }
 }
@@ -571,6 +572,11 @@ img::-moz-selection {
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+}
+
+.timeline .timeline-body .btn {
+  padding-top: 10px;
+  margin-top: 20px;
 }
 
 .timeline .timeline-body > ul,
