@@ -273,14 +273,14 @@ img::-moz-selection {
   .masthead .intro .contact {
     margin: 0 auto;
     text-align: left;
-    font-size: 9px;
+    font-size: 8px;
   }
   .masthead .intro .contact ul {
     margin-left: 0px;
     margin-bottom: 0px;
   }
   .masthead .intro .intro-text {
-    font-size: 9px;
+    font-size: 8px;
     padding-top: 0px;
   }
 }
@@ -658,21 +658,14 @@ img::-moz-selection {
   }
 }
 
-.team-member {
-  margin: 0 auto;
-  margin-bottom: 50px;
+.about {
   text-align: center;
-}
-
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-}
-
-.team-member p {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  background-color: black;
+  background-image: url("../img/about.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  height: 100vh;
 }
 
 section#contact {
