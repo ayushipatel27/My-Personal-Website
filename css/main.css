@@ -271,17 +271,15 @@ img::-moz-selection {
     width: 160px;
   }
   .masthead .intro .contact {
-    margin: 0 auto;
-    text-align: left;
-    font-size: 8px;
+    display: none;
   }
   .masthead .intro .contact ul {
     margin-left: 0px;
     margin-bottom: 0px;
   }
   .masthead .intro .intro-text {
-    font-size: 8px;
-    padding-top: 0px;
+    font-size: 12px;
+    padding-top: 10px;
   }
 }
 
