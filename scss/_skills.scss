@@ -1,0 +1,20 @@
+// Styling for the services section
+.skills {
+  background-image: url('../img/skills.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.col-md-4 .skill{
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color:black;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+

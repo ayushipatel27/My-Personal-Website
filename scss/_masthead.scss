@@ -1,0 +1,54 @@
+// Styling for the masthead
+.masthead {
+  text-align: center;
+  color: white;
+  background-image: url('../img/header.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size:100% 100%;
+  @include background-cover;
+  .intro {
+    margin: 0 auto;
+    background-color:white;
+    opacity: 0.90;
+    .contact {
+      text-align: left;
+      ul {
+        color: #000;
+        li {
+          a {
+            color: #000;
+            text-decoration: none;
+            &.active,
+            &:hover {
+              color: darken($primary, 10%);
+            }
+          }
+          margin: 15px 0;
+        }
+      }
+    }
+    .intro-text {
+      padding-top: 20px;
+      padding-bottom: 0px;
+      color: black;
+    }
+  }
+}
+
+@media(max-width: 1300px) {
+  .masthead {
+    .intro {
+      margin-top: 30px;
+      .contact {
+        display: none;
+      }
+      .intro-text {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+
