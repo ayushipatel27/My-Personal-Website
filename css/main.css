@@ -481,10 +481,10 @@ img::-moz-selection {
   top: 0;
   bottom: 0;
   left: 40px;
-  width: 2px;
+  width: 5px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #ffcdd5;
 }
 
 .timeline > li {
@@ -533,7 +533,7 @@ img::-moz-selection {
   margin-left: 0;
   text-align: center;
   color: black;
-  border: 7px solid #e9ecef;
+  border: 5px solid #000;
   border-radius: 100%;
   background-color: #fff;
 }
