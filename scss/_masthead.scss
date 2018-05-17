@@ -10,8 +10,14 @@
   @include background-cover;
   .intro {
     margin: 0 auto;
+    width: auto;
+    height: inherit;
     background-color:white;
     opacity: 0.90;
+    .row {
+      margin-left: 40px;
+      margin-right: 0px;
+    }
     .contact {
       text-align: left;
       ul {
@@ -40,15 +46,59 @@
 @media(max-width: 1300px) {
   .masthead {
     .intro {
+      .row {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
       margin-top: 30px;
+      .profile {
+        margin: 0 auto;
+      }
       .contact {
-        display: none;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+        ul {
+          margin-left: 0px;
+          margin-bottom: 0px;
+        }
       }
       .intro-text {
         font-size: 12px;
       }
     }
   }
+}
+
+@media(max-width:475px) {
+  .masthead {
+    .intro {
+      .row {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      margin-top: 30px;
+      .profile {
+        .img-responsive {
+          width: 160px;
+        }
+        margin: 0 auto;
+      }
+      .contact {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 9px;
+        ul {
+          margin-left: 0px;
+          margin-bottom: 0px;
+        }
+      }
+      .intro-text {
+        font-size: 9px;
+        padding-top: 0px;
+      }
+    }
+  }  
 }
 
 
