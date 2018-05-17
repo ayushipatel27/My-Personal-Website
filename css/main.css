@@ -277,6 +277,9 @@ img::-moz-selection {
     font-size: 12px;
     padding-top: 10px;
   }
+  .masthead .intro .btn {
+    display: none;
+  }
 }
 
 .skills {
