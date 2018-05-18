@@ -192,6 +192,7 @@ img::-moz-selection {
 }
 
 .masthead .intro {
+  padding: 40px 40px 40px 40px;
   margin: 0 auto;
   width: auto;
   height: inherit;
@@ -233,6 +234,7 @@ img::-moz-selection {
 
 @media (max-width: 1300px) {
   .masthead .intro {
+    padding: 20px 20px 20px 20px;
     margin-top: 30px;
   }
   .masthead .intro .row {
@@ -241,6 +243,9 @@ img::-moz-selection {
   }
   .masthead .intro .profile {
     margin: 0 auto;
+  }
+  .masthead .intro .profile .img-responsive {
+    width: 180px;
   }
   .masthead .intro .contact {
     margin: 0 auto;
@@ -258,6 +263,7 @@ img::-moz-selection {
 
 @media (max-width: 475px) {
   .masthead .intro {
+    padding: 15px 5px 5px 5px;
     margin-top: 30px;
   }
   .masthead .intro .row {
@@ -302,7 +308,7 @@ img::-moz-selection {
   font-size: 1.2em;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .skills {
     font-size: 12px;
     background-size: 100% 100%;
