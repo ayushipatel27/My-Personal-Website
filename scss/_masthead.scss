@@ -37,6 +37,7 @@
       }
     }
     .intro-text {
+      text-align: center;
       padding-top: 20px;
       padding-bottom: 0px;
       color: black;
@@ -69,6 +70,7 @@
         }
       }
       .intro-text {
+        text-align: center;
         font-size: 12px;
       }
     }
@@ -92,10 +94,10 @@
       }
       .contact {
         text-align: left;
-        padding: 0px 0px 0px 20px;
-        // display: none;
+        padding: 0px 0px 0px 10px;
       }
       .intro-text {
+        text-align: left;
         font-size: 12px;
         padding-top: 10px;
       }

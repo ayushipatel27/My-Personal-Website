@@ -227,6 +227,7 @@ img::-moz-selection {
 }
 
 .masthead .intro .intro-text {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 0px;
   color: black;
@@ -257,6 +258,7 @@ img::-moz-selection {
     margin-bottom: 0px;
   }
   .masthead .intro .intro-text {
+    text-align: center;
     font-size: 12px;
   }
 }
@@ -278,9 +280,10 @@ img::-moz-selection {
   }
   .masthead .intro .contact {
     text-align: left;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 10px;
   }
   .masthead .intro .intro-text {
+    text-align: left;
     font-size: 12px;
     padding-top: 10px;
   }
