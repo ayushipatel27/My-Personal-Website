@@ -12,7 +12,7 @@
     @include body-font;
   }
   .navbar-brand {
-    color:black;
+    color:#fab7c2;
     font-weight: bold;
     @include script-font;
     &.active,
@@ -67,7 +67,7 @@
       padding-bottom: 0;
       background-color:white;
       .navbar-brand {
-        color: black;
+        color: #fab7c2;
         font-size: 1.25em;
         padding: 12px 0;
       }

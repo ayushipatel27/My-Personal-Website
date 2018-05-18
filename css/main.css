@@ -122,7 +122,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: black;
+  color: #fab7c2;
   font-weight: bold;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
@@ -171,7 +171,7 @@ img::-moz-selection {
     background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: black;
+    color: #fab7c2;
     font-size: 1.25em;
     padding: 12px 0;
   }
@@ -277,7 +277,8 @@ img::-moz-selection {
     width: 160px;
   }
   .masthead .intro .contact {
-    display: none;
+    text-align: left;
+    padding: 0px 0px 0px 30px;
   }
   .masthead .intro .intro-text {
     font-size: 12px;
